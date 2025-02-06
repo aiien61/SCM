@@ -20,7 +20,8 @@ class WorkCenter:
     def calculate_worker_available_time(self):
         """Calculate total available time of workers"""
         return self.workers * self.worker_hours_per_day * self.machine_days_per_week
-    
+
+
 class CapacityStrategy(ABC):
     @abstractmethod
     def calculate_capacity(slef):
@@ -32,12 +33,13 @@ class RatedCapacityStrategy(CapacityStrategy):
         """Calculate rated capacity, including both machinery and workforce"""
         total_available_time = machine_time + worker_time
         return total_available_time * utilization * efficiency
-    
+
+
 class MeasuredCapacityStrategy(CapacityStrategy):
     def calculate_capacity(self, historical_data: List[int]):
         """Calculate measured capacity based on historical data"""
         return np.mean(historical_data)
-    
+
 
 class CapacityCalculator:
     def __init__(self, strategy: CapacityStrategy):
@@ -48,7 +50,8 @@ class CapacityCalculator:
 
     def calculate(self, *args, **kwargs) -> float:
         return self.strategy.calculate_capacity(*args, **kwargs)
-    
+
+
 if __name__ == "__main__":
     # Define a work centre, including machinery and workforce
     work_center = WorkCenter(machines=4, machine_hours_per_day=8, machine_days_per_week=5, workers=3, worker_hours_per_day=7)
