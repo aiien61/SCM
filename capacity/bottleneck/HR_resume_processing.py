@@ -3,7 +3,7 @@ from typing import List, Dict
 from dataclasses import dataclass
 
 class ApplicantType(Enum):
-    CONSULTANT = "Consultant"
+    CONSULTING = "Consulting"
     STAFF = "Staff"
     INTERNSHIP = "internship"
 
@@ -22,12 +22,6 @@ class ProcessConfig:
     @property
     def hourly_capacity(self) -> int:
         return int(60 / self.time_minutes * self.workers)
-    
-# @dataclass
-# class DemandConfig:
-#     consultant: int = 0
-#     staff: int = 0
-#     intership: int = 0
 
 class ProcessStep:
     def __init__(self, name: str, config: ProcessConfig):
@@ -59,22 +53,22 @@ class ResumeProcessSystem:
         self.steps["performance_analysis"] = ProcessStep("Performance Analysis", ProcessConfig(time_minutes=8, workers=2))
         self.steps["send_confirmation"] = ProcessStep("Send Confirmation", ProcessConfig(time_minutes=2, workers=1))
 
-    def set_daily_demand(self, consultant: int, staff: int, internship: int) -> None:
+    def set_daily_demand(self, consulting: int, staff: int, internship: int) -> None:
         # Set demand for each step based on applicant type
         for step in self.steps.values():
             if step.name == "Data Entry":
-                step.set_demand(ApplicantType.CONSULTANT, consultant)
+                step.set_demand(ApplicantType.CONSULTING, consulting)
                 step.set_demand(ApplicantType.STAFF, staff)
                 step.set_demand(ApplicantType.INTERNSHIP, internship)
             elif step.name == "Contact Others":
-                step.set_demand(ApplicantType.CONSULTANT, consultant)
+                step.set_demand(ApplicantType.CONSULTING, consulting)
             elif step.name == "Contact Previous Employer":
-                step.set_demand(ApplicantType.CONSULTANT, consultant)
+                step.set_demand(ApplicantType.CONSULTING, consulting)
                 step.set_demand(ApplicantType.STAFF, staff)
             elif step.name == "Performance Analysis":
                 step.set_demand(ApplicantType.INTERNSHIP, internship)
             elif step.name == "Send Confirmation":
-                step.set_demand(ApplicantType.CONSULTANT, consultant)
+                step.set_demand(ApplicantType.CONSULTING, consulting)
                 step.set_demand(ApplicantType.STAFF, staff)
                 step.set_demand(ApplicantType.INTERNSHIP, internship)
 
@@ -99,10 +93,10 @@ def main():
     # Create system instance
     system = ResumeProcessSystem()
 
-    # Set daily demand (e.g. 30 consultants, 110 staff, 40 internship)
+    # Set daily demand (e.g. 30 consultings, 110 staff, 40 internship)
     # Converting to hourly rates for 10-hour workday
     system.set_daily_demand(
-        consultant=3,
+        consulting=3,
         staff=11,
         internship=4
     )
