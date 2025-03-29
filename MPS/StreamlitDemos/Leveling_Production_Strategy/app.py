@@ -5,11 +5,8 @@ import matplotlib.pyplot as plt
 import matplotlib.font_manager as fm
 from typing import List
 
-# plt.rcParams['font.family'] = ['Microsoft JhengHei']  # 微軟正黑體 (Windows)
-# plt.rcParams['font.family'] = ['PingFang TC']  # 蘋方體 (macOS)
-# plt.rcParams['font.familyf'] = ['Noto Sans TC']  # 思源黑體
-plt.rcParams["font.family"] = "DejaVu Sans"
 
+plt.rcParams["font.family"] = "DejaVu Sans"
 plt.rcParams['axes.unicode_minus'] = False  # 避免負號變成方塊
 
 # Name the title
