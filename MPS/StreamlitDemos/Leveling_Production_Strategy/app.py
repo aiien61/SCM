@@ -6,7 +6,7 @@ import matplotlib.font_manager as fm
 from typing import List
 
 
-plt.rcParams["font.family"] = "DejaVu Sans"
+plt.rcParams["font.family"] = "Noto Sans CJK"
 plt.rcParams['axes.unicode_minus'] = False  # 避免負號變成方塊
 
 # Name the title
