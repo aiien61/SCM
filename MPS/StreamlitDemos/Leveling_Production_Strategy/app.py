@@ -7,11 +7,7 @@ from typing import List
 
 # plt.rcParams['font.family'] = ['Microsoft JhengHei']  # 微軟正黑體 (Windows)
 # plt.rcParams['font.family'] = ['PingFang TC']  # 蘋方體 (macOS)
-# plt.rcParams['font.familyf'] = ['Noto Sans TC']  # 思源黑體
-
-font_path: str = "/Users/mac/Library/Fonts/TaipeiSansTCBeta-Regular.ttf"
-font_prop = fm.FontProperties(fname=font_path)
-plt.rcParams['font.family'] = font_prop.get_name()
+plt.rcParams['font.familyf'] = ['Noto Sans TC']  # 思源黑體
 
 plt.rcParams['axes.unicode_minus'] = False  # 避免負號變成方塊
 
@@ -85,7 +81,6 @@ for row in full_table.to_pandas().values.tolist():
 avg_production: int = int(np.ceil(sum(demand_values) / num_periods)) if len(demand_values) > 0 else 0
 production_plan: int = [avg_production] * num_periods
 
-# TODO: calculate scheduled stocks
 pre_stock: int = init_stock
 for i in range(num_periods):
     stock = production_plan[i] + pre_stock - demand_values[i]
@@ -94,10 +89,10 @@ for i in range(num_periods):
 
 # Convert to vertical dataframe
 df = pl.DataFrame({
-    "週期": list(range(1, num_periods + 1)),
-    "需求預測": demand_values,
-    "預計庫存": scheduled_stocks,
-    "平準化生產": production_plan
+    "periods": list(range(1, num_periods + 1)),
+    "projected_demands": demand_values,
+    "scheduled_stocks": scheduled_stocks,
+    "MPS": production_plan
 })
 
 # Display the table
@@ -108,9 +103,9 @@ st.dataframe(df)
 st.subheader("需求與生產計劃圖表")
 
 fig, ax = plt.subplots()
-ax.plot(df['週期'], df['需求預測'], 'ro-', label='需求預測')
-ax.plot(df['週期'], df['平準化生產'], 'bs--', label='平準化生產')
-ax.plot(df['週期'], df['預計庫存'], 'g^-', label='預計庫存')
+ax.plot(df['periods'], df['projected_demands'], 'ro-', label='需求預測')
+ax.plot(df['periods'], df['MPS'], 'bs--', label='平準化生產')
+ax.plot(df['periods'], df['scheduled_stocks'], 'g^-', label='預計庫存')
 
 ax.set_xlabel('週期')
 ax.set_ylabel('數量', rotation=0, labelpad=20)
