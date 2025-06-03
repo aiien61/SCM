@@ -1,0 +1,223 @@
+{
+    "menu_create": {
+      "en": "Create Factory Order",
+      "zh": "新增廠內訂單",
+      "de": "Fertigungsauftrag erstellen",
+      "ja": "工場注文の作成",
+      "fr": "Créer un ordre de fabrication",
+      "vi": "Tạo đơn hàng nhà máy",
+      "id": "Buat Pesanan Pabrik"
+    },
+    "menu_edit": {
+      "en": "Edit Order",
+      "zh": "修改訂單",
+      "de": "Auftrag bearbeiten",
+      "ja": "注文を編集",
+      "fr": "Modifier la commande",
+      "vi": "Chỉnh sửa đơn hàng",
+      "id": "Edit Pesanan"
+    },
+    "menu_convert": {
+      "en": "Convert to Sequence",
+      "zh": "轉件序",
+      "de": "In Sequenz umwandeln",
+      "ja": "シーケンスに変換",
+      "fr": "Convertir en séquence",
+      "vi": "Chuyển đổi thành chuỗi",
+      "id": "Ubah ke Urutan"
+    },
+
+
+
+
+
+    "factory_order": {
+      "en": "Factory Order",
+      "zh": "廠內訂單",
+      "de": "Fertigungsauftrag",
+      "ja": "工場内注文",
+      "fr": "Ordre d'usine",
+      "vi": "Đơn hàng nội bộ",
+      "id": "Pesanan Pabrik"
+    },
+    "edit_order_description": {
+      "en": "You can modify the order items, engraving content, or add new items.",
+      "zh": "可修改項次、刻字內容，或新增項目。",
+      "de": "Sie können Auftragspositionen, Gravurinhalt ändern oder neue hinzufügen.",
+      "ja": "注文項目、刻印内容の修正や追加が可能です。",
+      "fr": "Vous pouvez modifier les articles, le contenu de gravure ou ajouter de nouveaux éléments.",
+      "vi": "Bạn có thể chỉnh sửa mục đơn hàng, nội dung khắc hoặc thêm mục mới.",
+      "id": "Anda dapat mengedit item pesanan, konten ukiran, atau menambahkan item baru."
+    },
+    "select_item": {
+      "en": "Select Item to Edit",
+      "zh": "選擇要修改的項次",
+      "de": "Position zum Bearbeiten auswählen",
+      "ja": "編集する項目を選択",
+      "fr": "Sélectionnez un élément à modifier",
+      "vi": "Chọn mục để chỉnh sửa",
+      "id": "Pilih item untuk diedit"
+    },
+    "new_quantity": {
+      "en": "New Quantity",
+      "zh": "新數量",
+      "de": "Neue Menge",
+      "ja": "新しい数量",
+      "fr": "Nouvelle quantité",
+      "vi": "Số lượng mới",
+      "id": "Jumlah baru"
+    },
+    "engraving_content": {
+      "en": "Engraving Content",
+      "zh": "刻字內容",
+      "de": "Gravurinhalt",
+      "ja": "刻印内容",
+      "fr": "Contenu de gravure",
+      "vi": "Nội dung khắc",
+      "id": "Konten Ukiran"
+    },
+    "convert_preview": {
+      "en": "Convert (Preview Engraving)",
+      "zh": "轉換（預覽刻字）",
+      "de": "Umwandeln (Vorschau Gravur)",
+      "ja": "変換（刻印プレビュー）",
+      "fr": "Convertir (aperçu de gravure)",
+      "vi": "Chuyển đổi (Xem trước khắc)",
+      "id": "Konversi (Pratinjau Ukiran)"
+    },
+    "preview": {
+      "en": "Preview",
+      "zh": "預覽",
+      "de": "Vorschau",
+      "ja": "プレビュー",
+      "fr": "Aperçu",
+      "vi": "Xem trước",
+      "id": "Pratinjau"
+    },
+    "save_changes": {
+      "en": "Save Changes",
+      "zh": "儲存變更",
+      "de": "Änderungen speichern",
+      "ja": "変更を保存",
+      "fr": "Enregistrer les modifications",
+      "vi": "Lưu thay đổi",
+      "id": "Simpan Perubahan"
+    },
+    "changes_saved": {
+      "en": "Changes saved successfully!",
+      "zh": "變更已成功儲存！",
+      "de": "Änderungen erfolgreich gespeichert!",
+      "ja": "変更が保存されました！",
+      "fr": "Modifications enregistrées avec succès !",
+      "vi": "Thay đổi đã được lưu!",
+      "id": "Perubahan berhasil disimpan!"
+    },
+    "convert_description": {
+      "en": "Select the items you want to convert to 'Pending Sequence' status.",
+      "zh": "選擇要轉換為待件序狀態的項次。",
+      "de": "Wählen Sie die Positionen, die in 'Ausstehende Reihenfolge' umgewandelt werden sollen.",
+      "ja": "「シーケンス待ち」状態に変更する項目を選択してください。",
+      "fr": "Sélectionnez les éléments à convertir en statut 'Séquence en attente'.",
+      "vi": "Chọn các mục cần chuyển sang trạng thái 'Chờ trình tự'.",
+      "id": "Pilih item yang akan dikonversi ke status 'Menunggu Urutan'."
+    },
+    "select_items": {
+      "en": "Select Items",
+      "zh": "選擇項次",
+      "de": "Positionen wählen",
+      "ja": "項目を選択",
+      "fr": "Sélectionner les éléments",
+      "vi": "Chọn mục",
+      "id": "Pilih item"
+    },
+    "order_date": {
+      "en": "Order Date",
+      "zh": "訂單日期",
+      "de": "Bestelldatum",
+      "ja": "注文日",
+      "fr": "Date de commande",
+      "vi": "Ngày đặt hàng",
+      "id": "Tanggal Pemesanan"
+    },
+    "customer_name": {
+      "en": "Customer Name",
+      "zh": "客戶名稱",
+      "de": "Kundenname",
+      "ja": "顧客名",
+      "fr": "Nom du client",
+      "vi": "Tên khách hàng",
+      "id": "Nama Pelanggan"
+    },
+    "item_list": {
+      "en": "Item List",
+      "zh": "項目清單",
+      "de": "Artikelliste",
+      "ja": "アイテム一覧",
+      "fr": "Liste des articles",
+      "vi": "Danh sách mặt hàng",
+      "id": "Daftar Item"
+    },
+    "delete_item": {
+      "en": "Delete Item",
+      "zh": "刪除項目",
+      "de": "Element löschen",
+      "ja": "項目を削除",
+      "fr": "Supprimer l'article",
+      "vi": "Xóa mục",
+      "id": "Hapus Item"
+    },
+    "add_item": {
+      "en": "Add Item",
+      "zh": "新增項目",
+      "de": "Element hinzufügen",
+      "ja": "項目を追加",
+      "fr": "Ajouter un article",
+      "vi": "Thêm mục",
+      "id": "Tambah Item"
+    },
+    "cancel": {
+      "en": "Cancel",
+      "zh": "取消",
+      "de": "Abbrechen",
+      "ja": "キャンセル",
+      "fr": "Annuler",
+      "vi": "Hủy bỏ",
+      "id": "Batal"
+    },
+    "confirm": {
+      "en": "Confirm",
+      "zh": "確認",
+      "de": "Bestätigen",
+      "ja": "確認",
+      "fr": "Confirmer",
+      "vi": "Xác nhận",
+      "id": "Konfirmasi"
+    },
+    "loading": {
+      "en": "Loading...",
+      "zh": "載入中...",
+      "de": "Wird geladen...",
+      "ja": "読み込み中...",
+      "fr": "Chargement...",
+      "vi": "Đang tải...",
+      "id": "Memuat..."
+    },
+    "no_data": {
+      "en": "No data available",
+      "zh": "無資料",
+      "de": "Keine Daten verfügbar",
+      "ja": "データがありません",
+      "fr": "Aucune donnée disponible",
+      "vi": "Không có dữ liệu",
+      "id": "Tidak ada data"
+    },
+    "delivery_date": {
+      "en": "Delivery Date",
+      "zh": "交貨日期",
+      "de": "Lieferdatum",
+      "ja": "納期",
+      "fr": "Date de livraison",
+      "vi": "Ngày giao hàng",
+      "id": "Tanggal Pengiriman"
+    }
+}

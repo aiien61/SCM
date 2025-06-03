@@ -1,0 +1,156 @@
+{
+    "title_create": {
+      "en": "📄 Create New Factory Order",
+      "zh": "📄 新增廠內訂單",
+      "de": "📄 Neuen Fertigungsauftrag erstellen",
+      "ja": "📄 新しい工場注文を作成",
+      "fr": "📄 Créer un nouvel ordre de fabrication",
+      "vi": "📄 Tạo đơn hàng nhà máy mới",
+      "id": "📄 Buat Pesanan Pabrik Baru"
+    },
+    "basic_info": {
+      "en": "Basic Information",
+      "zh": "基本資料",
+      "de": "Grundinformationen",
+      "ja": "基本情報",
+      "fr": "Informations de base",
+      "vi": "Thông tin cơ bản",
+      "id": "Informasi Dasar"
+    },
+    "order_class": {
+      "en": "Order Classification",
+      "zh": "訂單分類",
+      "de": "Auftragsklassifizierung",
+      "ja": "注文分類",
+      "fr": "Classification de la commande",
+      "vi": "Phân loại đơn hàng",
+      "id": "Klasifikasi Pesanan"
+    },
+    "material_type": {
+      "en": "Customer Material Type",
+      "zh": "客戶料件類型",
+      "de": "Materialtyp des Kunden",
+      "ja": "顧客の素材タイプ",
+      "fr": "Type de matériau client",
+      "vi": "Loại vật liệu khách hàng",
+      "id": "Jenis Material Pelanggan"
+    },
+    "customer_no": {
+      "en": "Customer Number",
+      "zh": "客戶編號",
+      "de": "Kundennummer",
+      "ja": "顧客番号",
+      "fr": "Numéro client",
+      "vi": "Số khách hàng",
+      "id": "Nomor Pelanggan"
+    },
+    "sales_order_no": {
+      "en": "Sales Order Number",
+      "zh": "銷售訂單編號",
+      "de": "Verkaufsauftragsnummer",
+      "ja": "販売注文番号",
+      "fr": "Numéro de commande client",
+      "vi": "Số đơn bán hàng",
+      "id": "Nomor Pesanan Penjualan"
+    },
+    "customer_order_no": {
+      "en": "Customer Order Number",
+      "zh": "客戶訂單號碼",
+      "de": "Kundenauftragsnummer",
+      "ja": "顧客注文番号",
+      "fr": "Numéro de commande client",
+      "vi": "Số đơn hàng của khách",
+      "id": "Nomor Pesanan Pelanggan"
+    },
+    "item_info": {
+      "en": "Item Info",
+      "zh": "品項資訊",
+      "de": "Artikelinformationen",
+      "ja": "品目情報",
+      "fr": "Infos de l'article",
+      "vi": "Thông tin mặt hàng",
+      "id": "Informasi Item"
+    },
+    "drawing_no": {
+      "en": "Drawing Number",
+      "zh": "設計圖號",
+      "de": "Zeichnungsnummer",
+      "ja": "図面番号",
+      "fr": "Numéro de plan",
+      "vi": "Số bản vẽ kỹ thuật",
+      "id": "Nomor Gambar Teknik"
+    },
+    "revision": {
+      "en": "Revision",
+      "zh": "版次",
+      "de": "Revision",
+      "ja": "リビジョン",
+      "fr": "Révision",
+      "vi": "Phiên bản",
+      "id": "Revisi"
+    },
+    "due_date": {
+      "en": "Due Date",
+      "zh": "交期",
+      "de": "Fälligkeitsdatum",
+      "ja": "納期",
+      "fr": "Date d'échéance",
+      "vi": "Ngày giao hàng",
+      "id": "Tanggal Jatuh Tempo"
+    },
+    "quantity": {
+      "en": "Quantity",
+      "zh": "數量",
+      "de": "Menge",
+      "ja": "数量",
+      "fr": "Quantité",
+      "vi": "Số lượng",
+      "id": "Jumlah"
+    },
+    "unit": {
+      "en": "Unit",
+      "zh": "單位",
+      "de": "Einheit",
+      "ja": "単位",
+      "fr": "Unité",
+      "vi": "Đơn vị",
+      "id": "Satuan"
+    },
+    "qty_per_set": {
+      "en": "Quantity per Set",
+      "zh": "每組數量",
+      "de": "Menge pro Set",
+      "ja": "セットあたりの数量",
+      "fr": "Quantité par ensemble",
+      "vi": "Số lượng mỗi bộ",
+      "id": "Jumlah per Set"
+    },
+    "method": {
+      "en": "Manufacturing Method",
+      "zh": "製程方式",
+      "de": "Herstellungsverfahren",
+      "ja": "製造方法",
+      "fr": "Méthode de fabrication",
+      "vi": "Phương pháp sản xuất",
+      "id": "Metode Pembuatan"
+    },
+    "save_btn": {
+      "en": "💾 Save Order",
+      "zh": "💾 儲存訂單",
+      "de": "💾 Auftrag speichern",
+      "ja": "💾 注文を保存",
+      "fr": "💾 Enregistrer la commande",
+      "vi": "💾 Lưu đơn hàng",
+      "id": "💾 Simpan Pesanan"
+    },
+    "success_created": {
+      "en": "✅ Order successfully created: ",
+      "zh": "✅ 訂單建立成功：",
+      "de": "✅ Auftrag erfolgreich erstellt: ",
+      "ja": "✅ 注文が正常に作成されました：",
+      "fr": "✅ Commande créée avec succès : ",
+      "vi": "✅ Đơn hàng đã được tạo thành công: ",
+      "id": "✅ Pesanan berhasil dibuat: "
+    }
+}
+  

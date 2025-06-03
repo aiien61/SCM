@@ -1,0 +1,39 @@
+{
+    "title_edit": {
+      "en": "🛠️ Edit Order",
+      "zh": "🛠️ 修改訂單",
+      "de": "🛠️ Auftrag bearbeiten",
+      "ja": "🛠️ 注文を編集",
+      "fr": "🛠️ Modifier la commande",
+      "vi": "🛠️ Chỉnh sửa đơn hàng",
+      "id": "🛠️ Edit Pesanan"
+    },
+    "no_orders": {
+      "en": "No orders found.",
+      "zh": "目前尚無訂單。",
+      "de": "Keine Aufträge gefunden.",
+      "ja": "注文が見つかりません。",
+      "fr": "Aucune commande trouvée.",
+      "vi": "Không tìm thấy đơn hàng nào.",
+      "id": "Tidak ada pesanan yang ditemukan."
+    },
+    "select_order": {
+      "en": "Select Order",
+      "zh": "選擇訂單",
+      "de": "Auftrag wählen",
+      "ja": "注文を選択",
+      "fr": "Sélectionner la commande",
+      "vi": "Chọn đơn hàng",
+      "id": "Pilih pesanan"
+    },
+    "order_status": {
+      "en": "Order Status",
+      "zh": "訂單狀態",
+      "de": "Auftragsstatus",
+      "ja": "注文状況",
+      "fr": "Statut de la commande",
+      "vi": "Trạng thái đơn hàng",
+      "id": "Status Pesanan"
+    }
+}
+
