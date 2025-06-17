@@ -1,0 +1,4 @@
+product,step_no,process_name,resource,process_time_per_unit
+Shirt,1,Cutting,Cutter1,0.1
+Shirt,2,Sewing,Sew1,0.5
+Shirt,3,Packing,Packer1,0.1
