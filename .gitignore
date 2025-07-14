@@ -2,3 +2,4 @@
 __pycache__/
 instance/
 find_fonts.py
+*.db
